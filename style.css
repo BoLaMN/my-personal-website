@@ -9,8 +9,11 @@ header {
 
 header h1 {
     color: black;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 75px;
+    margin: auto;
 }
 
 header nav {
@@ -27,11 +30,36 @@ header nav a {
     width: 25%;
 }
 
+#menu {
+    background: orange;
+    margin: auto;
+    float: left;
+    width: 15%;
+    
+}
+
+#menu p {
+    text-align: center;
+    font-size: 30px;
+}
+
+#menu a {
+    font-size: 25px;
+    text-align: left;
+    margin: auto;
+}
+
 #info {
     background: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    float: left;
+    width: 42.5%;
 }
 
 #info p {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
     text-align: center;
     color: greenyellow;
@@ -43,6 +71,16 @@ h2 {
     text-align: center;
     color: blueviolet;
     margin: auto;
+    
+    float: left;
+    width: 100%;
+}
+
+#kredins {
+    background: black;
+    float: right;
+    width: 42.5%;
+    margin: auto;
 }
 
 img[alt="Kredin image"] {
@@ -51,14 +89,40 @@ img[alt="Kredin image"] {
     margin-right: auto;
 }
 
-#info #img-caption {
+#kredins #img-caption {
+    text-align: center;
+    font-style: italic;
     font-size: 15px;
     color: white;
+    margin: auto;
+}
+
+#typing {
+    background: black;
+    width: 42.5%;
+    float: right;
+    text-align: center;
+    align-content: center;
+}
+
+img[alt="typing gif"] {
+    display: block;
+    margin: auto;
+}
+
+#typing-caption {
+    color: white;
+    font-size: 15px;
+    font-style: italic;
+    margin: auto;
+    padding-bottom: 2px;
 }
 
 footer {
     background: orange;
     text-align: center;
+    margin: auto;
+    padding: 10px;
 }
 
 footer a {
