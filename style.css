@@ -2,10 +2,27 @@ body {
     background: black;
 }
 
-h1 {
-    color: red;
+header {
+    background: orange;
+}
+
+header h1 {
+    color: black;
     text-align: center;
-    font-size: 50px;
+    font-size: 75px;
+}
+
+header nav {
+    margin: auto;
+    text-align: center;
+}
+
+header nav a {
+    background-color: grey;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 25%;
 }
 
 p {
@@ -29,4 +46,14 @@ img[alt="Kredin image"] {
 #img-caption {
     font-size: 15px;
     color: white;
+}
+
+footer {
+    background: orange;
+}
+
+footer p {
+    color: black;
+    
+    
 }
