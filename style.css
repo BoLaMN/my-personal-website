@@ -1,10 +1,23 @@
 body {
-    background: grey;
+    background: black;
 }
 
-header {
-    background: orange;
-    margin: auto;
+.header-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ff9000;
+    padding: 20px;
+    border-radius: 12px;
+    gap: 10px;
+    border: 5px;
+    border-color: black;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding: 20px;
 }
 
 header h1 {
@@ -16,32 +29,26 @@ header h1 {
     margin: auto;
 }
 
-header nav {
-    background: orange;
+header h2 {
+    color: black;
+    background-color: #ff9000;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
     margin: auto;
-    text-align: center;
 }
 
-header nav a {
-    background: orange;
-    font-size: 30px;
-    margin: auto;
-    float: left;
-    width: 25%;
+.btn {
+    background-color: #ff9000;
+    border-radius: 12px;
+    font-size: 35px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 300ms ease;
 }
 
-
-header a img[alt="facebook icon"] {
-    width: 50px;
-    height: 50px;
-    background: orange;
-
-}
-
-header a img[alt="github icon"] {
-    width: 50px;
-    height: 50px;
-    background: orange;
+.btn:hover {
+    background-color: orange;
 }
 
 #menu {
